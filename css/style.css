@@ -1,0 +1,188 @@
+
+body{
+	background-size:cover;
+	background-repeat:no-repeat;
+}
+#container{
+	width:900px;
+	min-height:613px;
+	margin:0 auto;
+}
+
+#main_button button:hover{
+	background:rgba(128,0,128, 0.4);
+}
+#cv_button button{
+	color:white;
+	border:0px solid white;
+	background:rgba(0,128,128,0.3);
+}
+#cv_button button:hover{
+	background:rgba(0,128,128,0.25);
+	color:white;
+}
+button{
+	min-width:45px;
+	height:31px;
+	border:1px solid #423628;
+	border-radius:4px;
+	font-weight:bold;
+	background:rgba(15,4,12,0.6);
+	color:#FFFCd7;
+	cursor:pointer;
+}
+
+
+#details{
+	min-height:14px;
+}
+
+#per_info{
+	font-size:13px;
+	line-height:normal
+}
+
+#para_profile, #para_cv, #para_gallery, #para_contact{
+	width:900px;
+	border:1px solid black;
+	border-radius:4px;
+	font-family:Dotum;
+	font-weight:normal;
+	word-spacing:3px;
+	line-height:30px;
+	margin-top:30px;
+	padding:20px;
+	background:rgba(1,1,2,0.4);
+}
+
+/*
+
+CV Portion
+
+		*/
+#para_cv{
+	font-weight:normal;
+}
+#para_cv ul{
+	font-family:Dotum;
+}
+#personal #per_info{
+	color:white;
+	text-align:right;
+}
+
+
+#name{
+	color:lightgreen;
+}
+#para_info{
+	color:#321fac;
+}
+h4{
+	color:#DEFFFD;
+}
+h3{
+	color:#dee888;
+}
+ul li{
+	color:#b0dfff;
+}
+
+
+/*
+Gallery
+		*/
+#para_gallery #gal{
+	margin:0 auto;
+}
+
+img{
+	width:250px;
+	height:140px;
+	border:1px solid #eee;
+}
+
+
+
+/*
+Form CSS
+		*/
+#para_contact{
+	/*margin-top:20px;*/
+}
+input, textarea{
+	margin:10px;
+	border:1px solid white;
+	border-radius:5px;
+	padding:2px;
+	background:#dee888;
+}
+input[type=text]{
+	width:260px;
+	height:29px;
+}
+input[type=submit]{
+	height:30px;
+	width:65px;
+	background:rgba(25,24,23,0.4);
+	color:#dee888;
+	font-weight:bold;
+	cursor:pointer;
+	
+}
+input[type=submit]:hover{
+	background:rgba(128,0,128,0.9);
+}
+
+textarea{
+	width:400px;
+	height:100px;
+}
+#awesome{
+	width:900px;
+	margin:0 auto;
+}
+#core{
+	border-top:1px solid #777;
+	margin:0 auto;
+}
+#core_core{
+	margin:0 auto;
+	border:1px solid white;
+}
+
+
+
+
+#awesome ul{
+	list-style-type:none;
+}
+#awesome ul li{
+	display:inline;
+	/*padding:3px;
+	border:1px solid white;*/
+}
+#awesome ul li a{
+	text-decoration:none;
+	margin-right:4px;
+	/*border-radius:5px;*/
+	padding:0px 8px 0px 8px;
+}
+#g{
+	color:#D62221;
+	background:#ddd;
+}
+#in{
+	color:#999;
+	background:#fff;
+}
+#twt{
+	color:skyblue;
+	background:#ffffff;
+}
+#face{
+	color:#fff;
+	background:#3F5C9A;
+}
+
+
